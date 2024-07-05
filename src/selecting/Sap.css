@@ -1,0 +1,118 @@
+.container {
+    display: grid;
+     /* background-color: #121212;
+      */
+      background-color: #12121226;
+     
+    /* background-color: #90a4ae; */
+    /* background-color: #121212d6; */
+
+    /* grid-template-columns: 50% 50%; */
+  }
+  
+  .left {
+    padding: 20px;
+    width: 60%; /* Adjust width to cover 60% of the container */
+  }
+  
+  .right {
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  
+  .option-data-vertical {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  .radio-buttons {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(4, auto);
+  }
+  
+  
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    padding: 8px;
+    height: 262px;
+    color: white;
+    /* background-color: #282828;
+     */
+     background-color: #282828d4;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    /* background-color: #f2f2f2; */
+  }
+  
+  /* Styles for the buttons */
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the container */
+  .container {
+    display: flex;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .selectedColumn {
+    background-color: #cceeff; /* Selected column highlighting */
+  }
+  
+  .columnHeader {
+    cursor: pointer; /* Indicates interactivity */
+  }

@@ -1,0 +1,10 @@
+MONGODB_CONNECTION_STRING="mongodb://airlinedb_user:8649OV57IGR3Y1JS@ec2-43-205-133-199.ap-south-1.compute.amazonaws.com/admin?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.3"
+DATABASE_GST="gstservice"
+COLLECTION_GST_INPUT_2B="two-b-flat"
+DATABASE_FUZZY="fuzzy_match"
+COLLECTION_FUZZY_OUTPUT="data_output"
+AWS_ACCESS_KEY="AKIAWVKQBF2L3Z6GLRWL"
+AWS_SECRET_KEY='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'
+REGION_NAME='ap-south-1'
+BUCKET_NAME='sap-invoices-2'
+SELECTED_COLUMN='selectedColumn'
